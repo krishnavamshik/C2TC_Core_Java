@@ -1,3 +1,4 @@
+//Multilevel inheritance
 package com.acharya.inheritance;
 class Animals{
 	void eat() {

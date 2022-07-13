@@ -1,3 +1,4 @@
+//Single inheritance
 package com.acharya.inheritance;
 class Animal {
 	void eat() {
