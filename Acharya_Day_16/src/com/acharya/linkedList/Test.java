@@ -5,12 +5,12 @@ public class Test {
 
 	public static void main(String[] args) {
 	LinkedList<String>ll=new LinkedList<String>();
-	ll.add("q");
-	ll.add("w");
-	ll.add("e");
-	ll.add(1,"r");
-	ll.addFirst("T");
-	ll.addLast("Y");
+	ll.add("qd");
+	ll.add("wr");
+	ll.add("er");
+	ll.add(1,"rr");
+	ll.addFirst("Tr");
+	ll.addLast("Yr");
 	System.out.println(ll);
 	LinkedList<String>oo=new LinkedList<String>();
 	oo.add("1");

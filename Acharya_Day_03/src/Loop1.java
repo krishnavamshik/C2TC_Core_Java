@@ -1,10 +1,18 @@
 
+
+class Solution {
+	 public int countOdds(int low, int high) {
+		 int arr[]=new int[5];
+		 System.out.println(arr.length);
+		 return high;
+}
+
 public class Loop1 {
 
 	public static void main(String[] args) {
 		
-		for(int x= 0; x<3;x++) {
-			System.out.println(x);
+		Solution s = new Solution();
+		s.countOdds(1, 4);
 		}
 
 	}

@@ -10,8 +10,8 @@ public class Client {
 
 	public static void main(String[] args) {
 		BankFactory bf = new MMBankFactory();
-		SavingsAcc sa = new MMSavingsAcc(21,"krishna",10,true);
-		CurrentAcc ca = new MMCurrentAcc(33,"nikki",500000,100000);
+		SavingsAcc sa = new MMSavingsAcc(21,"krishna",10000,true);
+		CurrentAcc ca = new MMCurrentAcc(33,"nikki",500000,10000);
 		sa.withDraw(sa.getAccBal());
 		sa.toString();
 		ca.withDraw(ca.getcreditLimit());
