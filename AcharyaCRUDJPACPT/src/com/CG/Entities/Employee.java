@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="emp_store")
-@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)
+@Inheritance(strategy=InheritanceType.JOINED)
 
 
 public class Employee implements Serializable{
