@@ -26,7 +26,7 @@ public class InheritanceTest {
 		em.persist(manager);
 		
 		em.getTransaction().commit();
-		System.out.println("Added one employee and manager");
+		System.out.println("Added one employee and manager STI");
 		em.close();
 		factory.close();
 
